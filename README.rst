@@ -16,7 +16,9 @@ Installation
 
 Depends
 -------
-* cl-lib
+You need the following Emacs packages:
+
+* cl-lib (comes builtin with Emacs)
 * `company-mode`_
 * `ghc-mod`_
 
@@ -26,7 +28,10 @@ Depends
 
 Optional Dependency
 -------------------
-* `hoogle`_ command and its database (``hoogle data``) for doc-buffer support and hoogle search completion.
+* Install the `hoogle`_ command and its database for doc-buffer support and hoogle search completion::
+
+    cabal install hoogle
+    hoogle data
 
 Setup from MELPA_
 -----------------
